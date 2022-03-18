@@ -1,4 +1,3 @@
-assert(getprop("ro.product.device") == "vince" || getprop("ro.build.product") == "vince" || abort("E3004: This package is for device: vince; this device is " + getprop("ro.product.device") + "."););
 ui_print("");
 ui_print("========================================");
 ui_print("Ubuntu Touch for Xiaomi Redmi 5 Plus (beta)");
